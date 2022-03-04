@@ -11,7 +11,8 @@ print_r($_POST);
 
 // Hello World
 print('Привет, мир!');
-
+<h2>Putty connect</h2>
+<img src="/screenshots/putty-connect" alt="conect">
 // Чтобы получить в переменную данные из сущности запроса.
 $xml = file_get_contents('php://input');
 
