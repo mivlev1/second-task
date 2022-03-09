@@ -33,18 +33,20 @@ print($v1);
 </head>
 <body>
     <h1>Connect</h1>
-    <img src="/screenshots/putty-connect.png" alt="putty-connect">
+    <img src="./screenshots/putty-connect.png" alt="putty-connect">
     <h1>HTTP 1.0</h1>
-    <img src="/screenshots/HTTP-1.0.png" alt="http-1.0">
+    <img src="./screenshots/HTTP-1.0.png" alt="http-1.0">
     <h1>HTTP 1.1</h1>
-    <img src="/screenshots/HTTP-1.1.png" alt="http-1.1">
+    <img src="./screenshots/HTTP-1.1.png" alt="http-1.1">
     <h1>Размер file.tar.gz</h1>
-    <img src="/screenshots/file.tar.png" alt="file.tar">
+    <img src="./screenshots/file.tar.png" alt="file.tar">
     <h1>Медиатип image.png</h1>
-    <img src="/screenshots/image.png" alt="image">
+    <img src="./screenshots/image.png" alt="image">
     <h1>Получаем первые 200 байт file.tar</h1>
-    <img src="/screenshots/200BYTES.png" alt="100byte">
+    <img src="./screenshots/200BYTES.png" alt="100byte">
     <h1>Определем кодировку index.php</h1>
-    <img src="/screenshots/code.png" alt="code-index.php">
+    <img src="./screenshots/code.png" alt="code-index.php">
+    <h1>Отсавляем комментарий к index.php</h1>
+    <img src="./screenshots/index-comment.png" alt="code-index.php">
 </body>
 </html>
