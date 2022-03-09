@@ -32,21 +32,27 @@ print($v1);
   <title>second-task</title>
 </head>
 <body>
-    <h1>Connect</h1>
+    <h1>Подключение к серверу при помощи PUTTY с портом 80</h1>
     <img src="./screenshots/putty-connect.png" alt="putty-connect">
     <h1>HTTP 1.0</h1>
+    <p>Отправляем запрос GET по HTTP 1.0</p>
     <img src="./screenshots/HTTP-1.0.png" alt="http-1.0">
     <h1>HTTP 1.1</h1>
+    <p>Отправляем запрос GET по HTTP 1.1 с добавлением поля Host, так как иначе он не выполнится</p>
     <img src="./screenshots/HTTP-1.1.png" alt="http-1.1">
     <h1>Размер file.tar.gz</h1>
+    <p>с помощью запроса HEAD узнаем в его ответе размер файла в боле Content-Length</p>
     <img src="./screenshots/file.tar.png" alt="file.tar">
     <h1>Медиатип image.png</h1>
+    <p>с помощью запроса HEAD узнаем в его ответе медиатип файлы image в поле Content-Type</p>
     <img src="./screenshots/image.png" alt="image">
     <h1>Получаем первые 200 байт file.tar</h1>
+    <p>отправляем HEAD запрос с ограничением на количество байт в ответе</p>
     <img src="./screenshots/200BYTES.png" alt="100byte">
-    <h1>Определем кодировку index.php</h1>
+    <h1>Определем кодировку index.php с помощью отправки запрова методом HEAD</h1>
     <img src="./screenshots/code.png" alt="code-index.php">
-    <h1>Отсавляем комментарий к index.php</h1>
+    <h1>Отсавляем комментарий к index.php с помощью отправки запроса методом POST</h1>
+
     <img src="./screenshots/index-comment.png" alt="code-index.php">
 </body>
 </html>
