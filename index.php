@@ -21,7 +21,7 @@ if (isset($v1)) {
 else {
   $v1 = 1;
 }
-print($v1); <
+print($v1); 
 ?>
 
 
