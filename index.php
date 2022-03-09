@@ -21,10 +21,10 @@ if (isset($v1)) {
 else {
   $v1 = 1;
 }
-print($v1);
+print($v1); <
+?>
 
-// Если надо выполнить код из другого файла.
-// include('form.php');
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
